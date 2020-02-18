@@ -7,6 +7,7 @@ describe "GET '/' - Greeting Form" do
     expect(page.body).to include("Welcome!")
   end
 
+describe "GET '/' - Greeting Form has a greeting form with a name field"
   # New test
   it 'has a greeting form with a user_name field' do
     visit '/'
